@@ -13,13 +13,11 @@
 <body>
 
   <!-- 🎥 VIDEO DE FONDO -->
-<video autoplay muted loop id="background-video">
-  <source src="assets/video-fondo.mp4" type="video/mp4">
-</video>
-<div id="video-overlay"></div>
-<div class="toast" id="toast">Bienvenido al sitio del Dr. César Cruz</div>
-
-
+  <video autoplay muted loop id="background-video">
+    <source src="assets/video-fondo.mp4" type="video/mp4">
+  </video>
+  <div id="video-overlay"></div>
+  <div class="toast" id="toast">Bienvenido al sitio del Dr. César Cruz</div>
 
   <!-- ENCABEZADO -->
   <header class="hero">
@@ -27,7 +25,12 @@
     <h1>César Augusto Cruz Castro</h1>
     <h3>Magíster en Derecho Comercial</h3>
     <p>Abogado | Asesor jurídico empresarial</p>
-    <a class="btn" href="assets/cv-cesar-cruz.pdf" download>📄 Descargar Hoja de Vida (PDF)</a>
+
+    <!-- ✅ ENLACE CORREGIDO -->
+    <a class="btn" href="assets/cv-cesar-cruz.pdf" target="_blank" rel="noopener noreferrer">
+      📄 Ver Hoja de Vida (PDF)
+    </a>
+
     <div class="contact-links">
       <a href="mailto:cesarcruz@ccabogados.com.co">✉ cesarcruz@ccabogados.com.co</a>
       <a href="https://wa.me/573117599590" target="_blank">💬 WhatsApp</a>
