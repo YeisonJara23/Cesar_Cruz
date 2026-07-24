@@ -1,107 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>César Augusto Cruz Castro - Hoja de Vida</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>César Augusto Cruz Castro !! - Hoja de Vida</title>
 
-  <!-- Estilos -->
-  <link rel="stylesheet" href="style.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
-</head>
-<body>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  </head>
+  <body>
+    <!-- 🎥 VIDEO DE FONDO -->
+    <video autoplay muted loop id="background-video">
+      <source src="assets/video-fondo.mp4" type="video/mp4" />
+    </video>
+    <div id="video-overlay"></div>
+    <div class="toast" id="toast">Bienvenido al sitio del Dr. César Cruz</div>
 
-  <!-- 🎥 VIDEO DE FONDO -->
-  <video autoplay muted loop id="background-video">
-    <source src="assets/video-fondo.mp4" type="video/mp4">
-  </video>
-  <div id="video-overlay"></div>
-  <div class="toast" id="toast">Bienvenido al sitio del Dr. César Cruz</div>
+    <!-- ENCABEZADO -->
+    <header class="hero">
+      <img src="assets/foto2.png" alt="César Augusto Cruz" class="hero-img" />
+      <h1>César Augusto Cruz Castro</h1>
+      <h3>Magíster en Derecho Comercial</h3>
+      <p>Abogado | Asesor jurídico empresarial</p>
 
-  <!-- ENCABEZADO -->
-  <header class="hero">
-    <img src="assets/foto2.png" alt="César Augusto Cruz" class="hero-img">
-    <h1>César Augusto Cruz Castro</h1>
-    <h3>Magíster en Derecho Comercial</h3>
-    <p>Abogado | Asesor jurídico empresarial</p>
+      <!-- ✅ ENLACE CORREGIDO -->
+      <a
+        class="btn"
+        href="assets/Hoja de Vida Cesar Cruz.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        📄 Ver Hoja de Vida (PDF)
+      </a>
 
-    <!-- ✅ ENLACE CORREGIDO -->
-    <a class="btn" href="assets/Hoja de Vida Cesar Cruz.pdf" target="_blank" rel="noopener noreferrer">
-      📄 Ver Hoja de Vida (PDF)
-    </a>
+      <div class="contact-links">
+        <a href="mailto:cesarcruz@ccabogados.com.co"
+          >✉ cesarcruz@ccabogados.com.co</a
+        >
+        <a href="https://wa.me/573117599590" target="_blank">💬 WhatsApp</a>
+        <a href="https://www.ccabogados.com.co" target="_blank"
+          >🌐 Sitio Web CC Abogados</a
+        >
+      </div>
+    </header>
 
-    <div class="contact-links">
-      <a href="mailto:cesarcruz@ccabogados.com.co">✉ cesarcruz@ccabogados.com.co</a>
-      <a href="https://wa.me/573117599590" target="_blank">💬 WhatsApp</a>
-      <a href="https://www.ccabogados.com.co" target="_blank">🌐 Sitio Web CC Abogados</a>
-    </div>
-  </header>
+    <!-- SECCIONES CON ANIMACIÓN -->
+    <section data-aos="fade-up">
+      <h2>Perfil Profesional</h2>
+      <p>
+        Abogado con experiencia en Derecho Civil y Comercial, especializado en
+        insolvencia empresarial, reorganización, mediación y procesos
+        societarios. Fundador de Cruz Castro Abogados S.A.S.
+      </p>
+    </section>
 
-  <!-- SECCIONES CON ANIMACIÓN -->
-  <section data-aos="fade-up">
-    <h2>Perfil Profesional</h2>
-    <p>Abogado con experiencia en Derecho Civil y Comercial, especializado en insolvencia empresarial, reorganización, mediación y procesos societarios. Fundador de Cruz Castro Abogados S.A.S.</p>
-  </section>
+    <section data-aos="fade-right">
+      <h2>Servicios Profesionales</h2>
+      <ul>
+        <li>⚖ Asesoría en Derecho Comercial, Civil y Societario</li>
+        <li>
+          💼 Procesos de Reorganización y Liquidación Empresarial (Ley 1116)
+        </li>
+        <li>📝 Insolvencia de Persona Natural No Comerciante</li>
+        <li>🧑‍⚖️ Mediación y Conciliación Empresarial</li>
+        <li>🏢 Gobierno Corporativo y Contratación Mercantil</li>
+      </ul>
+    </section>
 
-  <section data-aos="fade-right">
-    <h2>Servicios Profesionales</h2>
-    <ul>
-      <li>⚖ Asesoría en Derecho Comercial, Civil y Societario</li>
-      <li>💼 Procesos de Reorganización y Liquidación Empresarial (Ley 1116)</li>
-      <li>📝 Insolvencia de Persona Natural No Comerciante</li>
-      <li>🧑‍⚖️ Mediación y Conciliación Empresarial</li>
-      <li>🏢 Gobierno Corporativo y Contratación Mercantil</li>
-    </ul>
-  </section>
+    <section data-aos="zoom-in">
+      <h2>Formación Académica</h2>
+      <ul>
+        <li>
+          🎓 Magíster en Derecho Comercial - Universidad Externado de Colombia
+        </li>
+        <li>
+          🎓 Especialista en Derecho Comercial y Legislación Financiera -
+          Universidad de Caldas
+        </li>
+        <li>
+          🎓 Diplomado en Insolvencia y Conciliación - Cámara de Comercio de
+          Pereira
+        </li>
+        <li>🎓 Abogado - Universidad Libre de Colombia</li>
+      </ul>
+    </section>
 
-  <section data-aos="zoom-in">
-    <h2>Formación Académica</h2>
-    <ul>
-      <li>🎓 Magíster en Derecho Comercial - Universidad Externado de Colombia</li>
-      <li>🎓 Especialista en Derecho Comercial y Legislación Financiera - Universidad de Caldas</li>
-      <li>🎓 Diplomado en Insolvencia y Conciliación - Cámara de Comercio de Pereira</li>
-      <li>🎓 Abogado - Universidad Libre de Colombia</li>
-    </ul>
-  </section>
+    <section data-aos="fade-left">
+      <h2>Experiencia Destacada</h2>
+      <ul>
+        <li>👨‍🏫 Docente en diplomados sobre insolvencia y conciliación</li>
+        <li>
+          🔍 Asesor Jurídico de empresas como AGRO PEPPERS, SMART TECH GROUP,
+          entre otras
+        </li>
+        <li>🎙 Representante legal de artistas (Jhony Rivera)</li>
+        <li>
+          🏛 Operador jurídico de procesos empresariales en Cámara de Comercio
+          de Pereira
+        </li>
+      </ul>
+    </section>
 
-  <section data-aos="fade-left">
-    <h2>Experiencia Destacada</h2>
-    <ul>
-      <li>👨‍🏫 Docente en diplomados sobre insolvencia y conciliación</li>
-      <li>🔍 Asesor Jurídico de empresas como AGRO PEPPERS, SMART TECH GROUP, entre otras</li>
-      <li>🎙 Representante legal de artistas (Jhony Rivera)</li>
-      <li>🏛 Operador jurídico de procesos empresariales en Cámara de Comercio de Pereira</li>
-    </ul>
-  </section>
+    <section data-aos="fade-up">
+      <h2>Competencias</h2>
+      <ul>
+        <li>✔ Liderazgo y toma de decisiones</li>
+        <li>✔ Resolución de conflictos complejos</li>
+        <li>✔ Negociación estratégica</li>
+        <li>✔ Gestión del tiempo y presión</li>
+      </ul>
+    </section>
 
-  <section data-aos="fade-up">
-    <h2>Competencias</h2>
-    <ul>
-      <li>✔ Liderazgo y toma de decisiones</li>
-      <li>✔ Resolución de conflictos complejos</li>
-      <li>✔ Negociación estratégica</li>
-      <li>✔ Gestión del tiempo y presión</li>
-    </ul>
-  </section>
+    <section class="logos" data-aos="fade-up">
+      <h2>Reconocimientos y Alianzas</h2>
+      <div class="logo-grid">
+        <img src="assets/Externado.jpg" alt="Externado" class="icono" />
+        <img
+          src="assets/camara-comercio.png"
+          alt="Cámara de Comercio"
+          class="icono"
+        />
+        <img src="assets/Unilibre.png" alt="Unilibre" class="icono" />
+      </div>
+    </section>
 
-  <section class="logos" data-aos="fade-up">
-    <h2>Reconocimientos y Alianzas</h2>
-    <div class="logo-grid">
-      <img src="assets/Externado.jpg" alt="Externado" class="icono">
-      <img src="assets/camara-comercio.png" alt="Cámara de Comercio" class="icono">
-      <img src="assets/Unilibre.png" alt="Unilibre" class="icono">
-    </div>
-  </section>
+    <!-- PIE DE PÁGINA -->
+    <footer>
+      <p>© 2025 Dr. César Augusto Cruz Castro | Pereira, Colombia</p>
+    </footer>
 
-  <!-- PIE DE PÁGINA -->
-  <footer>
-    <p>© 2025 Dr. César Augusto Cruz Castro | Pereira, Colombia</p>
-  </footer>
-
-  <!-- LIBRERÍAS Y EFECTOS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init({ duration: 1000 });</script>
-  <script src="script.js"></script>
-</body>
+    <!-- LIBRERÍAS Y EFECTOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000 });
+    </script>
+    <script src="script.js"></script>
+  </body>
 </html>
